@@ -5,18 +5,13 @@ DYTPopupManager 是Objective-C编写的全局弹窗组件（可使用磨砂玻�
 最低兼容版本：IOS 7.0或以上
 
 支持基本参数：
-/**
- * DYTPopupStyle 弹窗样式，默认是无任何样式
- */
-typedef NS_ENUM(NSInteger, DYTPopupStyle){
+
+typedef NS_ENUM(NSInteger, DYTPopupStyle){//DYTPopupStyle 弹窗样式，默认是无任何样式
     DYTPopupStyleNone = 0,
     DYTPopupStyleCancelButton
 };
 
-/**
- * DYTPopupMaskStyle 弹窗遮罩样式，默认是灰色
- */
-typedef NS_ENUM(NSInteger, DYTPopupMaskStyle){
+typedef NS_ENUM(NSInteger, DYTPopupMaskStyle){//DYTPopupMaskStyle 弹窗遮罩样式，默认是灰色
     DYTPopupMaskStyleGray = 0, //灰色
     DYTPopupMaskStyleBlur //模糊
 };
