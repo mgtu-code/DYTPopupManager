@@ -30,3 +30,4 @@ self.popupManager.delegate = self;
 UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 200)];
 [self.popupManager showPopupViewWithView:view style:DYTPopupStyleNone maskStyle:DYTPopupMaskStyleBlur position:DYTPopupPositionBottom animation:YES];
 
+
